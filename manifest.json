@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Redirector",
+    "version": "1.0",
+    "description": "Redirects to an existing tab if the same top-level domain is opened",
+    "permissions": ["tabs","storage"],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
